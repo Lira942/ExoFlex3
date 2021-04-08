@@ -1,0 +1,45 @@
+
+header,footer{
+    background-color: blue;
+    height: 80px;
+    border-radius: 5px;
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: center; */
+}
+.container{
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    
+}
+
+/* .container>*{
+    display: flex;
+} */
+
+/* .container>article{
+    background-color: cadetblue;
+    height: 540px ;
+    
+    
+} */
+article,aside{
+    height: 800px;
+    width: 20%;
+    background-color: coral;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+nav{
+    height: 550px;
+    width: 59%;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+article{
+    order: 2;
+}
